@@ -1,0 +1,31 @@
+.image-container{
+    display: flex;
+}
+
+#main-img{
+    height: 400px;
+    display: block;
+    margin: 50px auto;
+}
+
+#previous{
+    height: 70px;
+    position: relative;
+    right: 910px;
+    top: 200px;
+    display: block;
+    cursor: pointer;
+}
+
+#next{
+    height: 70px;
+    position: relative;
+    right: 350px;
+    top: 200px;
+    display: block;
+    cursor: pointer;
+}
+
+.imagestyle{
+    display: flex;
+}
