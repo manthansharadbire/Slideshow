@@ -1,0 +1,40 @@
+.image-container{
+    display: flex;
+}
+
+#main-img{
+    height: 400px;
+    display: block;
+    margin: 50px auto;
+    object-fit: cover;
+}
+
+#previous{
+    height: 70px;
+    position: relative;
+    right: 910px;
+    top: 200px;
+    display: block;
+    cursor: pointer;
+}
+
+#previous:hover{
+    transform: scale(0.8); translate: -10px;
+}
+
+#next{
+    height: 70px;
+    position: relative;
+    right: 350px;
+    top: 200px;
+    display: block;
+    cursor: pointer;
+}
+
+#next:hover{
+    transform: scale(0.8); translate: 10px;
+}
+
+.imagestyle{
+    display: flex;
+}
